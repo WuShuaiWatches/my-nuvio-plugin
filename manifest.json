@@ -1,26 +1,24 @@
 [
   {
-    "id": "template-provider",
-    "name": "Template Provider",
-    "description": "A starter template for creating Nuvio providers.",
+    "id": "omnistream",
+    "name": "OmniStream - Premium Sources",
+    "description": "Aggregates 4K/1080p streams from Atlantic, ShuttleTV, Flixer, P-Stream, Cinejoy, Ghostflix and 17 more premium sources.",
     "version": "1.0.0",
-    "author": "Your Name",
+    "author": "Mehdi",
     "supportedTypes": [
       "movie",
       "tv"
     ],
-    "filename": "providers/template.js",
-    "enabled": false,
-    "logo": "",
+    "filename": "providers/omnistream.js",
+    "enabled": true,
     "contentLanguage": [
       "en"
     ],
     "formats": [
       "mp4",
-      "mkv"
+      "mkv",
+      "m3u8"
     ],
-    "limited": false,
-    "disabledPlatforms": [],
     "supportsExternalPlayer": true
   }
 ]
