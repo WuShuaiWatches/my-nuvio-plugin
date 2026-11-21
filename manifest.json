@@ -1,24 +1,19 @@
-[
-  {
-    "id": "omnistream",
-    "name": "OmniStream - Premium Sources",
-    "description": "Aggregates 4K/1080p streams from Atlantic, ShuttleTV, Flixer, P-Stream, Cinejoy, Ghostflix and 17 more premium sources.",
-    "version": "1.0.0",
-    "author": "Anonymous",
-    "supportedTypes": [
-      "movie",
-      "tv"
-    ],
-    "filename": "providers/omnistream.js",
-    "enabled": true,
-    "contentLanguage": [
-      "en"
-    ],
-    "formats": [
-      "mp4",
-      "mkv",
-      "m3u8"
-    ],
-    "supportsExternalPlayer": true
-  }
-]
+{
+  "name": "OmniStream",
+  "version": "1.0.0",
+  "scrapers": [
+    {
+      "id": "omnistream",
+      "name": "OmniStream",
+      "description": "4K/1080p aggregator: Atlantic, ShuttleTV, FlyStream, Vivarium, ArrowTV, Movy, Cinejoy, 7Movies, Cinecat, PopcornMovies, CineLite, Ghostflix, Dulo, Spacedom, Chillflix, Way2Movies, LFMX, Reelix, SweetFox, RiveStream, MeowTV, Flixer",
+      "version": "1.0.0",
+      "author": "Anonymous",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/omnistream.js",
+      "enabled": true,
+      "formats": ["mp4", "mkv", "m3u8"],
+      "logo": "",
+      "contentLanguage": ["en"]
+    }
+  ]
+}
